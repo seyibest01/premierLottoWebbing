@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Link Agency</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.css" />
+
+    <style>
+      .form-group {
+        white-space: nowrap;
+      }
+
+      .form-group label {
+        font-weight: bold;
+      }
+
+      .report-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="report-header">
+        <h5>Agency TPM: 24032</h5>
+        <h5>Agency Name: LADO 1</h5>
+        <h5>Sub agent: 5</h5>
+      </div>
+    </div>
+    <div class="container">
+      <div class="text-center mt-5 mb-3">
+        <h1>To Link Agency</h1>
+      </div>
+
+      <div class="col-md-6 offset-md-2">
+        <form>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input
+              type="radio"
+              id="cash"
+              name="payment"
+              class="custom-control-input"
+            />
+            <label class="custom-control-label" for="cash">Cash</label>
+          </div>
+
+          <div class="custom-control custom-radio custom-control-inline">
+            <input
+              type="radio"
+              id="card"
+              name="payment"
+              class="custom-control-input"
+            />
+            <label class="custom-control-label" for="card">Card</label>
+          </div>
+
+          <div class="form-group d-flex">
+            <label>Amount:</label>
+            <input type="text" class="form-control ml-2" />
+          </div>
+
+          <div class="form-group d-flex">
+            <label>Agency Name:</label>
+            <input type="text" class="form-control ml-2" />
+          </div>
+
+          <div class="form-group d-flex">
+            <label>Sub-Agent:</label>
+            <input type="text" class="form-control ml-2" />
+          </div>
+
+          <div class="form-group d-flex">
+            <label class="col-form-labels">ATM Card No:</label>
+            <input type="text" class="form-control ml-2" />
+          </div>
+
+          <div class="form-group d-flex">
+            <label>CVV:</label>
+            <input type="text" class="form-control ml-2" />
+          </div>
+
+          <div class="form-group d-flex">
+            <label>Password:</label>
+            <input type="password" class="form-control ml-2" />
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block mt-4">
+            Make Payment
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="text-center mt-3">Powered by: company 2022</div>
+    </footer>
+
+    <script src="bootstrap-5.2.0-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
