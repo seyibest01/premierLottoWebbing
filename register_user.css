@@ -1,0 +1,71 @@
+body
+{
+  background-color: aqua;
+  padding: 0%;
+  margin: 0px 0px 0px 0px;
+}
+
+h1
+{
+    color: blue;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.form-group
+{
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+
+}
+
+/* Style the input element */
+input[type="text"]
+{
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 120px;
+  font-size: 1px;
+  width: 200px;
+  transition: border-color 0.3s;
+}
+  
+/* Style the input when it's focused */
+input[type="text"]:focus
+{
+  border-color: #007bff; /* Change this color to your preferred focus color */
+  outline: none;
+}
+  
+/* Style placeholder text */
+input[type="text"]::placeholder
+{
+  color: #999; /* Change this color to your preferred placeholder color */
+}
+
+/* Style for disabled input */
+input[type="text"]:disabled
+{
+  background-color: #f5f5f5; /* Change this color to your preferred disabled color */
+  cursor: not-allowed;
+}
+
+/* register button */
+.btn
+{
+  margin-left: 420px;
+  padding: 10px;
+  border-radius: 120px;
+}
+
+.text-center
+{
+  text-align: center;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  color: black;
+  padding: 20px;
+}
